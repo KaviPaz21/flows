@@ -1,5 +1,5 @@
 
-key="5o9sUlD4xmoI4SoeT4IRWRzRGd5dHF9URSHfuB1WNIB4JdhndhMzJQQJ99BEACfhMk5XJ3w3AAABACOGUGqz",
+key="5o9sUlD4xmoI4SoeT4IRWRzRGd5dHF9URSHfuB1WNIB4Jdhndxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
 endpoint="https://llm-honegpt.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview"
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -13,7 +13,7 @@ CORS(app)
 client = AzureOpenAI(
     api_key="5o9sUlD4xmoI4SoeT4IRWRzRGd5dHF9URSHfuB1WNIB4JdhndhMzJQQJ99BEACfhMk5XJ3w3AAABACOGUGqz",
     api_version="2025-01-01-preview",
-    azure_endpoint="https://llm-honegpt.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview"
+    azure_endpoint="https://xxxxxxxxxxxxxxx.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview"
 )
 
 def extract_and_parse_json(text):
